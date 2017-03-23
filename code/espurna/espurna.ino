@@ -190,7 +190,9 @@ void setup() {
     #if ENABLE_EMON
         powerMonitorSetup();
     #endif
-
+    #if ENABLE_MHZ19
+        mhz19Setup();
+    #endif
 }
 
 void loop() {
@@ -227,5 +229,7 @@ void loop() {
     #if ENABLE_EMON
         powerMonitorLoop();
     #endif
-
+    #if ENABLE_MHZ19
+        mhz19Loop();
+    #endif
 }

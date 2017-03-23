@@ -39,6 +39,7 @@
 //#define WIFI_RELAY_NO
 //#define MQTT_RELAY
 //#define WIFI_RELAYS_BOARD_KIT
+#define D1_MHZ19
 
 //--------------------------------------------------------------------------------
 // Features (values below are non-default values)
@@ -52,3 +53,4 @@
 //#define ENABLE_FAUXMO         0
 //#define ENABLE_NOFUSS         1
 //#define ENABLE_DOMOTICZ       0
+#define ENABLE_MHZ19            1

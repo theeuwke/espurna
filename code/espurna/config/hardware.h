@@ -331,6 +331,11 @@
     #define LED1_PIN            16
     #define LED1_PIN_INVERSE    0
 
+#elif defined(D1_MHZ19)
+
+    #define MANUFACTURER        "WEMOS"
+    #define DEVICE              "D1_MINI"
+
 // -----------------------------------------------------------------------------
 // Unknown hardware
 // -----------------------------------------------------------------------------

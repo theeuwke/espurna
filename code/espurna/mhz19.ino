@@ -85,7 +85,7 @@ void mhz19Loop() {
 
         // Read sensor data
         int co2, temp;
-        if (read_temp_co2(&co2, &temp)) {
+        if (!(read_temp_co2(&co2, &temp))) {
             DEBUG_MSG_P(PSTR("[MHZ19] Error reading sensor\n"));
             return;
         }

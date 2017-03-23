@@ -101,6 +101,17 @@
 #define POW_REPORT_EVERY        12
 
 //--------------------------------------------------------------------------------
+// DHTXX temperature/humidity sensor
+// Enable support by passing ENABLE_DHT=1 build flag
+//--------------------------------------------------------------------------------
+
+#define MHZ19_RX_PIN            13
+#define MHZ19_TX_PIN            15
+#define MHZ19_UPDATE_INTERVAL   30000
+#define MHZ19_TEMPERATURE_TOPIC   "/temperature"
+#define MHZ19_PPM_TOPIC      "/ppm"
+
+//--------------------------------------------------------------------------------
 // Internal power montior
 // Enable support by passing ENABLE_ADC_VCC=1 build flag
 // Do not enable this if using the analog GPIO for any other thing
